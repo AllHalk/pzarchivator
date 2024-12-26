@@ -3,7 +3,7 @@ name: Publish Python Package
 on:
   push:
     branches:
-      - main  # Або будь-яка гілка, з якої ви хочете публікувати
+      - master  # Або будь-яка гілка, з якої ви хочете публікувати
 
 jobs:
   publish:
